@@ -1,0 +1,4 @@
+interface:
+  display_name: "循序子 Agent 工作流程"
+  short_description: "依 Markdown 逐項執行子 agent，驗收失敗即停止"
+  default_prompt: "使用 $sequential-agent-workflow 執行此 skill 資料夾中的 workflow.md。"
